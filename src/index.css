@@ -142,6 +142,7 @@ body {
   color: #fff;
 }
 
+.landing-intro h1,
 .landing-intro h1 span {
-  color: var(--accentColor2);
+  color: var(--accentColor);
 }
