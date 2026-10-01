@@ -25,4 +25,5 @@ dist-ssr
 .npmrc
 
 backup/
-.env*.tsbuildinfo
+.env
+*.tsbuildinfo
