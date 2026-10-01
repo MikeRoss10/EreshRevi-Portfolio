@@ -4,6 +4,7 @@ import Career from "./Career";
 import Contact from "./Contact";
 import Credentials from "./Credentials";
 import Cursor from "./Cursor";
+import Freelance from "./Freelance";
 import Impact from "./Impact";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
@@ -44,6 +45,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <About />
             <WhatIDo />
             <Career />
+            <Freelance />
             <Work />
             <Impact />
             {isDesktopView && (
