@@ -1,5 +1,36 @@
 import "./styles/Career.css";
 
+const roles = [
+  {
+    title: "Digital Marketing Intern",
+    company: "Shreedhan Packers and Movers",
+    year: "2022",
+    summary:
+      "Supported keyword research, on-page SEO and content, built backlink and blog strategies, and managed Google Search, Display and Remarketing campaigns with weekly KPI reporting.",
+  },
+  {
+    title: "Digital Marketing Executive",
+    company: "MJSPR Pvt. Ltd.",
+    year: "2022–24",
+    summary:
+      "Led SEO strategy and technical audits across client accounts, ran Google Ads SEM with improved Quality Score, grew social engagement 25% and organic reach 200%, and automated HubSpot nurture flows.",
+  },
+  {
+    title: "Freelance Marketing Consultant",
+    company: "Independent — US, UAE & India",
+    year: "2023+",
+    summary:
+      "Engaged directly by brands across fintech, gaming, healthcare, D2C and political campaigning — owning SEO, paid social, email lifecycle and tracking end to end.",
+  },
+  {
+    title: "Marketing Executive",
+    company: "UtilityDeals — Australia",
+    year: "NOW",
+    summary:
+      "Driving 80%+ organic traffic growth, managing a ₹3.2L–₹3.5L monthly budget across Google & Meta, building WordPress landing pages, and lifting conversions 8% through A/B-tested email sequences.",
+  },
+];
+
 const Career = () => {
   return (
     <div className="career-section section-container">
@@ -12,48 +43,18 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Digital Marketing Intern</h4>
-                <h5>Shreedhan Packers and Movers</h5>
+          {roles.map((role) => (
+            <div className="career-info-box" key={role.title}>
+              <div className="career-info-in">
+                <div className="career-role">
+                  <h4>{role.title}</h4>
+                  <h5>{role.company}</h5>
+                </div>
+                <h3>{role.year}</h3>
               </div>
-              <h3>2022</h3>
+              <p>{role.summary}</p>
             </div>
-            <p>
-              Supported SEO tasks including keyword research and on-page
-              optimization, created content for web and social, and assisted
-              in campaign execution and performance tracking.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Digital Marketing Executive</h4>
-                <h5>MJSPR Pvt Limited</h5>
-              </div>
-              <h3>2022–24</h3>
-            </div>
-            <p>
-              Led SEO strategy and SEM campaigns on Google Ads, grew social
-              engagement by 25% and organic reach by 200%, and ran
-              HubSpot-powered email marketing and lead nurturing.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Marketing Manager (Performance Marketing)</h4>
-                <h5>UtilityDeals — Australia</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Driving 80%+ growth in organic traffic through SEO and content,
-              running Google & Meta Ads performance campaigns, and managing a
-              monthly budget of ₹3.2L–3.5L across channels.
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </div>

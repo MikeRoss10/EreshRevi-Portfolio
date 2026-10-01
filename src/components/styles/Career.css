@@ -17,7 +17,7 @@
   line-height: 70px;
   font-weight: 400;
   text-align: center;
-  background: linear-gradient(0deg, #a893f0, #ffffff);
+  background: linear-gradient(0deg, #ff3d8b, #ff7a3d 45%, #ffe2c7);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,7 +83,7 @@
   height: 100%;
   background-image: linear-gradient(
     to top,
-    #b9a6ff 20%,
+    #ff3d8b 20%,
     var(--accentColor) 50%,
     transparent 95%
   );
@@ -94,12 +94,12 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
-  background-color: #b9a6ff;
+  background-color: #ff7a3d;
   width: 10px;
   height: 10px;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 2px #d9ceff, 0px 0px 15px 8px #e4dbff,
-    0px 0px 110px 20px #ffffff;
+  box-shadow: 0px 0px 5px 2px #ff9a5c, 0px 0px 15px 8px #ff3d8b,
+    0px 0px 110px 20px #ffc23d;
   animation: timeline 0.8s linear infinite forwards;
 }
 
@@ -109,7 +109,7 @@
   50%,
   70%,
   90% {
-    box-shadow: 0px 0px 5px 2px #d9ceff;
+    box-shadow: 0px 0px 5px 2px #ff9a5c;
   }
   10%,
   30%,
@@ -117,17 +117,17 @@
   100%,
   64%,
   80% {
-    box-shadow: 0px 0px 5px 2px #d9ceff, 0px 0px 15px 5px #e4dbff,
-      0px 0px 110px 20px #ffffff;
+    box-shadow: 0px 0px 5px 2px #ff9a5c, 0px 0px 15px 5px #ff3d8b,
+      0px 0px 110px 20px #ffc23d;
   }
 }
 @keyframes timeline2 {
   0% {
-    box-shadow: 0px 0px 5px 2px #d9ceff;
+    box-shadow: 0px 0px 5px 2px #ff9a5c;
   }
   100% {
-    box-shadow: 0px 0px 5px 2px #d9ceff, 0px 0px 15px 5px #e4dbff,
-      0px 0px 110px 20px #ffffff;
+    box-shadow: 0px 0px 5px 2px #ff9a5c, 0px 0px 15px 5px #ff3d8b,
+      0px 0px 110px 20px #ffc23d;
   }
 }
 @media only screen and (max-width: 1400px) {

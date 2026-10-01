@@ -8,7 +8,7 @@
   line-height: 1.5;
   scroll-behavior: smooth;
   color-scheme: light dark;
-  color: #eae5ec;
+  color: #fbf1ea;
   background-color: var(--backgroundColor);
 
   font-synthesis: none;
@@ -18,8 +18,11 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #b9a6ff;
-  --backgroundColor: #100e17;
+  --accentColor: #ff7a3d;
+  --accentColor2: #ff3d8b;
+  --accentColor3: #ffc23d;
+  --accentGradient: linear-gradient(100deg, #ffc23d 0%, #ff7a3d 45%, #ff3d8b 100%);
+  --backgroundColor: #0d0814;
   --vh: 100vh;
   --vh: 100svh;
 }
@@ -120,4 +123,25 @@ body {
   .techstack h2 {
     font-size: 40px;
   }
+}
+
+/* Vivid gradient text for headline accents */
+.gradient-text,
+.work-section h2 > span,
+.contact-box h2 > span,
+.impact-section h2 > span,
+.credentials-section h2 > span {
+  background-image: var(--accentGradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+::selection {
+  background: #ff3d8b;
+  color: #fff;
+}
+
+.landing-intro h1 span {
+  color: var(--accentColor2);
 }

@@ -90,22 +90,22 @@ const WhatIDo = () => {
               <h3>PERFORMANCE MARKETING</h3>
               <h4>Description</h4>
               <p>
-                Planning and running Google Ads, Meta Ads, and full-funnel
-                paid campaigns focused on qualified leads, lower CPA, and
-                measurable ROI.
+                Google Search, Display, Remarketing and Meta campaigns built
+                for qualified leads and lower CPA — backed by GA4, Tag Manager
+                and clean attribution.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Google Ads</div>
                 <div className="what-tags">Meta Ads</div>
+                <div className="what-tags">Bid Strategy</div>
                 <div className="what-tags">A/B Testing</div>
-                <div className="what-tags">CPA Optimization</div>
-                <div className="what-tags">Google Analytics (GA4)</div>
+                <div className="what-tags">CPA Optimisation</div>
+                <div className="what-tags">GA4</div>
                 <div className="what-tags">Tag Manager</div>
-                <div className="what-tags">UTM Tracking</div>
+                <div className="what-tags">UTM &amp; Conversion Tracking</div>
                 <div className="what-tags">HubSpot</div>
                 <div className="what-tags">Mailchimp</div>
-                <div className="what-tags">WordPress</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -129,23 +129,25 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>SEO & GROWTH</h3>
+              <h3>SEO & WEB GROWTH</h3>
               <h4>Description</h4>
               <p>
-                Driving organic growth through keyword research, technical
-                SEO, content strategy, and data-backed decisions that improve
-                rankings and conversion.
+                Technical and content-led SEO plus WordPress site builds —
+                keyword architecture, audits, link building and landing pages
+                that rank and convert.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">SEMrush</div>
-                <div className="what-tags">Ahrefs</div>
-                <div className="what-tags">On-Page SEO</div>
                 <div className="what-tags">Technical SEO</div>
+                <div className="what-tags">On &amp; Off-Page SEO</div>
+                <div className="what-tags">Local SEO</div>
                 <div className="what-tags">Link Building</div>
                 <div className="what-tags">Content Strategy</div>
+                <div className="what-tags">SEMrush</div>
+                <div className="what-tags">Ahrefs</div>
                 <div className="what-tags">Search Console</div>
-                <div className="what-tags">Google Data Studio</div>
+                <div className="what-tags">WordPress</div>
+                <div className="what-tags">CRO</div>
               </div>
               <div className="what-arrow"></div>
             </div>

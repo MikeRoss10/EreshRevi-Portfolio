@@ -20,11 +20,13 @@ const Contact = () => {
                 +91 76208 58903
               </a>
             </p>
+            <h4>Location</h4>
+            <p>Pune, Maharashtra, India</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://www.linkedin.com/in/eresh-revi/"
+              href="https://www.linkedin.com/in/ereshrevi/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"

@@ -202,7 +202,7 @@ const TechStack = () => {
           environmentRotation={[0, 4, 2]}
         />
         <EffectComposer enableNormalPass={false}>
-          <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
+          <N8AO color="#2a0618" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
     </div>

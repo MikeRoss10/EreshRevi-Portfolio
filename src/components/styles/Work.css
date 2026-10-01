@@ -33,7 +33,7 @@
   flex-direction: column;
   width: 600px;
   box-sizing: border-box;
-  border-right: 1px solid #363636;
+  border-right: 1px solid #3a2533;
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
@@ -46,7 +46,7 @@
   content: "";
   width: calc(50000vw);
   height: 1px;
-  background-color: #363636;
+  background-color: #3a2533;
   position: absolute;
   left: 50%;
   top: 0;
@@ -78,7 +78,7 @@
 }
 .work-info p {
   font-weight: 200;
-  color: #adacac;
+  color: #c9b8bf;
   margin: 0;
   margin-top: 3px;
 }
@@ -206,5 +206,74 @@
   }
   .work-flex {
     height: auto;
+  }
+}
+
+/* Metric card shown in place of a project image */
+.work-info p.work-services {
+  margin-top: 14px;
+  color: var(--accentColor);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.work-metric {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  min-height: 230px;
+  padding: 36px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  overflow: hidden;
+  background: radial-gradient(
+      circle at 85% 15%,
+      rgba(255, 194, 61, 0.35),
+      transparent 55%
+    ),
+    radial-gradient(circle at 10% 100%, rgba(255, 61, 139, 0.45), transparent 60%),
+    #1a0f1f;
+  border: 1px solid rgba(255, 122, 61, 0.35);
+  box-shadow: 0 20px 60px -20px rgba(255, 61, 139, 0.45);
+}
+.work-metric-value {
+  font-size: 96px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -2px;
+  background-image: var(--accentGradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.work-metric-label {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fbf1ea;
+}
+@media only screen and (max-height: 900px) {
+  .work-metric {
+    min-height: 180px;
+  }
+  .work-metric-value {
+    font-size: 72px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .work-metric {
+    min-height: 160px;
+    padding: 26px;
+  }
+  .work-metric-value {
+    font-size: 60px;
+  }
+  .work-metric-label {
+    font-size: 13px;
   }
 }
